@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>TIME.mk</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div id="topmenu"><div class="lbar">
+					    <a id="m1" href="http://www.time.mk/m/" title="Мобилна Верзија"> <span class="icon"></span><img src="./img/phone1.png"></a> 
+					    <a id="m2" href="http://www.time.mk/m2/" title="Лесна Мобилна Верзија"> <span class="icon"></span><img src="./img/phone2.png"></a> 
+					    <a id="rss" href="http://www.time.mk/rss/rsspage" title="RSS Канали"> <span class="icon"></span><img src="./img/rss.png"></a> 
+					    <a id="widget" href="http://www.time.mk/widget/widgetpage" title="Widget"> <span class="icon"></span><img src="./img/widget.png"></a> 
+					    <a id="twitter" href="http://twitter.com/timemk" title="Twitter"> <span class="icon"></span><img src="./img/twitter.gif"></a> 
+					    <a id="facebook" href="https://www.facebook.com/timemk" target="_blank" title="Facebook"> <span class="icon"></span><img src="./img/facebook.png"></a> 
+					    <a id="slo" href="http://www.times.si/" title="time.si"> <span class="flag"></span><img src="./img/slovenia.png"></a> 
+					    <a id="cro" href="http://cro.time.mk/" title="TIME.mk Croatia"> <span class="flag"></span><img src="./img/croatia.png"></a> 
+					    <a id="bih" href="http://bih.time.mk/" title="TIME.mk Bosnia"> <span class="flag" ></span><img src="./img/bosnia.png"></a> 
+					    <a id="srb" href="http://www.time.rs/" title="TIME.rs"> <span class="flag"></span><img src="./img/serbia.png"></a> 
+					    <a id="mkd" href="./Вести   TIME.mk_files/Вести   TIME.mk.htm" title="TIME.mk"> <span class="flag"></span><img src="./img/macedonia.png"></a> 
+					    <a id="alb" href="http://www.time.al/" title="TIME.al"> <span class="flag"></span><img src="./img/albania.png"></a> 
+					    <a id="bul" href="http://bg.time.mk/" title="TIME.mk Bulgaria"> <span class="flag"></span><img src="./img/bulgaria.png"></a>
+					    <a id="ro" href="http://www.time3.ro/" title="TIME3.ro"> <span class="flag"></span><img src="./img/romania.png"></a>
+				    </div>
+				    <div class="dbar">
+					    <!-- <a href="personal/"> <span>MyTime</span></a>      <span class="vr">|</span> -->
+					    <a href="http://www.time.mk/info/airquality"> <span>AirQuality</span> </a>      <span class="vr">|</span>
+					    <a href="http://nastani.time.mk/"> <span>Настани</span> </a>      <span class="vr">|</span>
+					    <a href="http://www.time.mk/arhiva/"> <span>Архива</span> </a>      <span class="vr">|</span>
+					    <a href="http://www.time.mk/info/m-blog/blog.22"> <span>Блог</span> </a>      <span class="vr">|</span>
+					    <a href="http://www.time.mk/info/marketing"> <span>Маркетинг</span> </a>      <span class="vr">|</span>
+					    <a href="http://www.time.mk/info/contact"> <span>Контакт</span> </a>        <span class="vr">|</span>
+					    <a id="personal" href="http://www.time.mk/personal/"> <span class="bold_link">MyTime:</span><span class="new on">ON</span><span class="new off">OFF</span> </a>
+					</div>
+				</div>
+				<div id="logo">
+					<span>TIME.mk</span>
+					<div id="clock">
+						<div id="container">
+							<canvas id="analogClock" width="102" height="102">Clock</canvas>
+						</div>
+						 
+						<script type="text/javascript" src="./analogCanvasClock.js"></script>
+						<script type="text/javascript">
+							setupAnalogClock(document.getElementById("analogClock"), 100);
+						</script>
+					</div>
+				</div>
+				<div id="mainmenu">
+					<ul id="nav">
+		                <li><a href="http://www.time.mk/st/vesti">Вести</a>
+		                	<span id="s0"></span>
+		                    <ul class="subs">
+		                        <li><a href="#">Македонија</a></li>
+		                        <li><a href="#">Економија</a></li>
+		                        <li><a href="#">Балкан</a></li>
+		                        <li><a href="#">Свет</a></li>
+		                        <li><a href="#">Скопје</a></li>
+		                        <li><a href="#">Република</a></li>
+		                        <li><a href="#">Култура</a></li>
+		                        <li><a href="#">Технологија</a></li>
+		                        <li><a href="#">Сцена</a></li>
+		                    </ul>
+		                </li>
+		                <li><a href="http://www.time.mk/st/sport">Спорт</a>
+		                    <span id="s1"></span>
+		                    <ul class="subs">
+		                        <li><a href="#">Header a</a>
+		                            <ul>
+		                                <li><a href="#">Submenu x</a></li>
+		                                <li><a href="#">Submenu y</a></li>
+		                                <li><a href="#">Submenu z</a></li>
+		                            </ul>
+		                        </li>
+		                        <li><a href="#">Header b</a>
+		                            <ul>
+		                                <li><a href="#">Submenu x</a></li>
+		                                <li><a href="#">Submenu y</a></li>
+		                                <li><a href="#">Submenu z</a></li>
+		                            </ul>
+		                        </li>
+		                    </ul>
+		                </li>
+		                <li><a href="http://www.time.mk/st/magazin">Магазин</a>
+		                    <span id="s2"></span>
+		                    <ul class="subs">
+		                        <li><a href="#">Header c</a>
+		                            <ul>
+		                                <li><a href="#">Submenu x</a></li>
+		                                <li><a href="#">Submenu y</a></li>
+		                                <li><a href="#">Submenu z</a></li>
+		                            </ul>
+		                        </li>
+		                        <li><a href="#">Header d</a>
+		                            <ul>
+		                                <li><a href="#">Submenu x</a></li>
+		                                <li><a href="#">Submenu y</a></li>
+		                                <li><a href="#">Submenu z</a></li>
+		                            </ul>
+		                        </li>
+		                    </ul>
+		                </li>
+		                <li><a href="http://www.time.mk/n/all">Најнови вести</a></li>
+		                <li><a href="http://www.time.mk/s/all">Извори</a></li>
+		                <li><a href="http://www.time.mk/gn/">Google News</a></li>
+		                <li><a href="http://www.time.mk/twitter/?m=0">Top tweets</a></li>
+		                <li id="searchbox">
+		                	<form action="/search.html" class="search-wrapper cf">
+						        <input type="text" placeholder="Барај" required="">
+						        <button type="submit"> </button>
+						    </form>
+		                </li>
+		            </ul>
+				</div>
+				<div class="cl">&nbsp;</div>
+			</header>
+			<div id="content">
+				
+			</div>
+		</div>
+	</body>
+</html>
