@@ -1,0 +1,264 @@
+@font-face {
+	font-family: myfont;
+	src: url('./Ubuntu-L.ttf');
+}
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family: 'myfont', Ubuntu-L;
+}
+
+.wrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block {
+	display: block;
+	height: 1px;
+	width: 1px;
+	clear: both;
+}
+
+a {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	color: black;
+	text-decoration: none;
+}
+
+header {
+	padding: 5px 0;
+	display: block;
+	height: 140px;
+	margin-bottom: 5px;
+}
+
+#logo {
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	opacity: 0.7;
+	padding-left: 6%;
+	display: inline-block;
+	width: 100px;
+	height: 140px;
+}
+
+#logo:hover {
+	opacity: 1;
+}
+
+#topmenu {
+	font-size: 18px;
+	float: right;
+
+	height: 140px;
+}
+
+#topmenu ul {
+	float: right;
+	list-style: none;
+	margin-top: 0;
+	padding-right: 10px;
+}
+
+#topmenu li {
+	display: inline;
+	line-height: 140px;
+	margin: 0 20px 0 0;
+}
+
+#topmenu a {
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#topmenu a:hover {
+	padding: 5px 0;
+	border-bottom: 2px solid black;
+	color: red;
+}
+
+#mainpicture {
+	opacity: 0.4;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	width: 100%;
+	height: 332px;
+	background-size: 100% 332px;
+	background-image: url('./img3.jpg');
+	margin-bottom: 5%;
+}
+
+#mainpicture span {
+	display: none;
+}
+
+#mainpicture:hover {
+	opacity: 1;
+}
+
+#content {
+	float: left;
+	cursor: default;
+	display: inline-block;
+	width: 60%;
+}
+
+.article {
+	padding-bottom: 60px;
+	padding-left: 30px;
+	height: 200px;
+	display: block;
+}
+
+#content img {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	opacity: 0.7;
+	padding-right: 25px;
+	float: left;
+	display: inline-block;
+}
+
+#content img:hover {
+	opacity: 1;
+}
+
+#content h3 {
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+#content span {
+	color: #4C4C4C;
+}
+
+#content a:hover {
+	color: red;
+}
+
+#personal, #map, #gallery {
+	padding-top: 20px;
+	opacity: 0.7;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#personal:hover, #map:hover, #gallery:hover {
+	opacity: 1;
+} 
+
+#rightsidebar {
+	padding-right: 2%;
+	display: inline-block;
+	float: right;
+	width: 350px; 
+}
+
+#personal {
+	float: right;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	font-size: 30px;
+	background: url('./img/teacher.jpg') no-repeat;
+}
+
+#personal span, #map span, #gallery span {
+	margin-top: 20px;
+	padding: 3px 6px;
+	float: left;
+	background-color: gold;
+}
+
+#map {
+	float: right;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	font-size: 30px;
+	background: url('./img/map.jpg') no-repeat;
+}
+
+#gallery {
+	float: right;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	font-size: 30px;
+	background: url('./img/gallery.jpg') no-repeat;
+}
+
+footer {
+	clear: both;
+	opacity: 0.7;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	padding-top: 40px;
+	margin-top: 40px;
+	width: 100%;
+	height: 200px;
+	color: white;
+	background-color: #333333;
+}
+
+footer:hover {
+	opacity: 1;
+}
+
+#contact {
+	float: left;
+	padding-top: 20px;
+	padding-left: 55px;
+	padding-bottom: 10px;
+}
+
+#contact h3 {
+	border-bottom: 2px solid red;
+	padding: 0 15px;
+	font-size: 20px;
+}
+
+#contact span {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	color: whitesmoke;
+	display: block;
+}
+
+#social {
+	display: inline-block;
+	float: right;
+	padding-right: 60px;
+	padding-top: 50px;
+}
+
+#social img {
+	padding: 5px 20px;
+}
